@@ -109,3 +109,13 @@ dd {
   float: left;
   margin: 0;
 }*/
+
+/* Icons */
+.fb::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f02d";
+}
+.social-item::before {
+  padding-right: 15px;
+}
