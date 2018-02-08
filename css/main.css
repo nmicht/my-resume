@@ -119,3 +119,17 @@ dd {
 .social-item::before {
   padding-right: 15px;
 }
+
+/* Meter */
+meter {
+  display: block;
+  width: 80%;
+}
+meter::-webkit-meter-optimum-value {
+  background: none;
+  background-color: red;
+}
+meter::-webkit-meter-bar {
+  background: none;
+  background-color: yellow;
+}
