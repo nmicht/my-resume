@@ -8,6 +8,9 @@
 ul {
   list-style-type: none;
 }
+.clear {
+  clear: both;
+}
 
 /* ------------- ASIDE ---------------- */
 aside {
@@ -65,4 +68,36 @@ article ul {
 }
 .references article {
   width: 50%;
+}
+
+/* DL */
+dt,
+dd {
+  line-height: 1.5em;
+  border-top: 1px solid white;
+}
+/*dt {
+  font-weight: bolder;
+  clear: left;
+  width: 30%;
+  float: left;
+}
+dd {
+  clear: right;
+  width: 50%;
+  float: left;
+  margin: 0;
+}*/
+dt:last-of-type,
+dd:last-of-type {
+  border-bottom: 1px solid white;
+}
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+dt,
+dd {
+  flex-basis: 40%;
+  margin: 0;
 }
