@@ -2,6 +2,8 @@
 .main-container {
   display: flex;
   width: 1200px;
+  justify-content: space-between;
+
 }
 
 /* ------------- GENERAL -------------- */
@@ -19,8 +21,7 @@ h2 {
 /* ------------- ASIDE ---------------- */
 aside {
   background-color: #647087;
-  width: 30%;
-  margin-right: 3%;
+  flex-basis: 25%;
 }
 aside * {
   color: white;
@@ -33,9 +34,13 @@ aside section h2:first-child{
 }
 #profile-pic img{
   border-radius: 50%;
+  width: 100px;
 }
 
 /* ------------- MAIN ---------------- */
+main {
+  flex-basis: 60%;
+}
 main section > h2 {
   text-transform: uppercase;
   letter-spacing: 5px;
