@@ -138,3 +138,15 @@ meter::-webkit-meter-bar {
   background: none;
   background-color: yellow;
 }
+
+@media (max-width: 400px) {
+  .main-container {
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+  }
+  aside,
+  main {
+    flex: 100%;
+  }
+}
