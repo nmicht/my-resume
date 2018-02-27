@@ -1,0 +1,22 @@
+{
+  "name": "my-resume",
+  "version": "1.0.0",
+  "description": "A beatiful resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmicht/my-resume.git"
+  },
+  "author": "Michelle Torres <michelle.torres@corb.mx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmicht/my-resume/issues"
+  },
+  "homepage": "https://github.com/nmicht/my-resume#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
