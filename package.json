@@ -18,5 +18,9 @@
   "homepage": "https://github.com/nmicht/my-resume#readme",
   "dependencies": {
     "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "node-sass": "^4.7.2"
   }
 }
