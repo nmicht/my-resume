@@ -1,17 +1,16 @@
 /* ------------- LAYOUT --------------- */
+body {
+  display: flex;
+  justify-content: center;
+}
 .main-container {
   display: flex;
   width: 1200px;
-  justify-content: space-between;
-
 }
 
 /* ------------- GENERAL -------------- */
 ul {
   list-style-type: none;
-}
-.clear {
-  clear: both;
 }
 h1,
 h2 {
@@ -22,6 +21,8 @@ h2 {
 aside {
   background-color: #647087;
   flex-basis: 25%;
+  margin-right: 20px;
+  padding: 0 10px;
 }
 aside * {
   color: white;
@@ -32,14 +33,17 @@ aside h2 {
 aside section h2:first-child{
   border-bottom: 2px solid white;
 }
+#profile-pic {
+  text-align: center;
+}
 #profile-pic img{
   border-radius: 50%;
-  width: 100px;
+  width: 200px;
 }
 
 /* ------------- MAIN ---------------- */
 main {
-  flex-basis: 60%;
+  flex-basis: 75%;
 }
 main section > h2 {
   text-transform: uppercase;
@@ -82,6 +86,9 @@ article ul {
   width: 50%;
   text-align: center;
 }
+.references img {
+  width: 100px;
+}
 
 /* DL */
 dl {
@@ -102,27 +109,15 @@ dd:last-of-type {
 dt {
   font-weight: bolder;
 }
-/*dt {
-  font-weight: bolder;
-  clear: left;
-  width: 30%;
-  float: left;
-}
-dd {
-  clear: right;
-  width: 50%;
-  float: left;
-  margin: 0;
-}*/
 
 /* Icons */
+.social-item::before {
+  padding-right: 15px;
+}
 .fb::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: "\f02d";
-}
-.social-item::before {
-  padding-right: 15px;
+  content: "\f082";
 }
 
 /* Meter */
@@ -132,11 +127,11 @@ meter {
 }
 meter::-webkit-meter-optimum-value {
   background: none;
-  background-color: red;
+  background-color: #EDC0AF;
 }
 meter::-webkit-meter-bar {
   background: none;
-  background-color: yellow;
+  background-color: #FFFFFF;
 }
 
 @media (max-width: 400px) {
